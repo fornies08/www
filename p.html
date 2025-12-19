@@ -1,7 +1,125 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chocolatada en el Instituto</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #5a3825, #c49a6c);
+      color: #3b2415;
+    }
+    header {
+      background-color: #3b2415;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+    h1, h2 {
+      color: #5a3825;
+    }
+    .info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background-color: #f3e5d8;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #3b2415;
+      color: white;
+      margin-top: 30px;
+    }
+    button {
+      background-color: #5a3825;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #7a4a32;
+    }
+    .chocolatito{
+    position: absolute;
+    left:60px;
+    top:200px;
+    width:250px;
+    height:250px;
+    background-image:url(chocolatito.png);
+    }
+    .chocolatito{
+      left: 60px
+      top: 200px
+      width 250px
+      height: 250px
+      baclground-image: url(chocolatito.png)
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍫 Chocolatada IESELAIOS 2025 🍫</h1>
+    <p>Un momento para compartir, disfrutar y abrigarnos juntos, disfrutando de un chocolate caliente, sea donde sea</p>
+  </header>
 
-<html>
-    <head>
-        <title> CHOCOLATADA IES ELAIOS 2025 </title>
-    </head>
+  <section>
+    <h2>¿De qué se trata?</h2>
+    <p>
+      La chocolatada en el instituto es una actividad solidaria y recreativa
+      donde estudiantes, docentes y personal se reúnen para compartir una taza
+      de chocolate caliente, especialmente en los días fríos.
+    </p>
+
+    <div class="info">
+      <div class="card">
+        <h3>📅 Fecha</h3>
+        <p>Viernes 19 de diciembre de 2025
+          11:00-13:30
+        </p>
+      </div>
+      <div class="card">
+        <h3>📍 Lugar</h3>
+        <p>Instituto IES ELAIOS, en el patio del recreo
+        </p>
+      </div>
+      <div class="card">
+        <h3>🤝 Objetivo</h3>
+        <p>Ayudar a las personas, donando alimentos o dinero</p>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 30px;">¿Querés participar?</h2>
+    <p>
+      Traé tu taza y muchas ganas de compartir. 
+      ¡El chocolate corre por cuenta del centro de estudiantes! ¡Date prisa y no llegues tarde 😛!
+    </p>
+
+    <button onclick="alert('¡Te esperamos en la chocolatada!')">Confirmar asistencia</button>
+  </section>
+  <div class="chocolatico"></div>
+  <div class="cocholate"></div>
+  <footer>
+    <p> 2025 Instituto Educativo - Evento Chocolatada</p>
+  </footer>
+  <div class="chocolatito"></div>
+  <div class="cocholate"></div>
+</body>
 </html>
